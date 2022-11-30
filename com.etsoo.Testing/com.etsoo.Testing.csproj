@@ -12,8 +12,7 @@
     <Company>ETSOO / 亿速思维</Company>
     <Copyright>Copyright © ETSOO 2004 - 2022</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>
-      ETSOO Testing Library
+    <Description>ETSOO Testing Library
 亿速思维测试库</Description>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Version>1.0.0</Version>
@@ -22,6 +21,13 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Moq" Version="4.18.2" />
